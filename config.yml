@@ -1,0 +1,66 @@
+messages:
+  generic:
+    help:
+    - "&d&l* &dIslandBank &7- &cHelp"
+    - ""
+    - "&7&o<> = Optional &c&oand &7&o() = Required"
+    - ""
+    - "&c/IslandBank withdraw &8(&fAMOUNT&7/&fALL&8)"
+    - "&c/IslandBank deposit &8(&fAMOUNT&7/&fALL&8)"
+    - "&c/IslandBank view &8<&fPlayer&8>"
+    - "&c/IslandBank modify &8<&fBankPerm&8>"
+    - ""
+    permission-denied: "&8(&d&lIB&8) &7You don't have permission for that."
+    players-only: "&8(&d&lIB&8) &7You must be a player to do that."
+    invalid-player: "&8(&d&lIB&8) &7Please enter a valid player."
+    owner-required: "&8(&d&lIB&8) &7You must be the owner of the island to do that."
+  withdraw:
+    usage: "&8(&d&lIB&8) &c/IslandBank withdraw &8(&fAMOUNT&8)"
+    island-data-incorrect: "&8(&d&lIB&8) &7Failed to withdraw! &cIsland Data Invalid."
+    enter-valid-amount: "&8(&d&lIB&8) &7Please enter a valid amount."
+    withdrawn: "&8(&d&lIB&8) &7You have successfully withdrawn %amount%!"
+    invalid-balance: "&8(&d&lIB&8) &7The bank does not have enough money to do that!"
+  deposit:
+    usage: "&8(&d&lIB&8) &c/IslandBank deposit &8(&fAMOUNT&8)"
+    island-data-incorrect: "&8(&d&lIB&8) &7Failed to deposit! &cIsland Data Invalid."
+    enter-valid-amount: "&8(&d&lIB&8) &7Please enter a valid amount."
+    deposited: "&8(&d&lIB&8) &7You have successfully deposited %amount%!"  
+    invalid-balance: "&8(&d&lIB&8) &7You do not have enough money to do that!"
+    bankperm-data-incorrect: "&8(&d&lIB&8) &7Failed to modify! &cBankPerm Data Invalid."
+  view:
+    usage: "&8(&d&lIB&8) &c/IslandBank view &8<&fPlayer&8>"
+    island-data-incorrect: "&8(&d&lIB&8) &7Failed to view! &cIsland Data Invalid."
+    view-format: "&8(&d&lIB&8) &7%player%Island Balance&7: &c%amount%"
+  modify:
+    island-data-incorrect: "&8(&d&lIB&8) &7Failed to modify bankperms! &cIsland Data Invalid."
+    bankperm-data-incorrect: "&8(&d&lIB&8) &7Failed to modify! &cBankPerm Data Invalid."
+    already-set: "&8(&d&lIB&8) &7That bankperm is already set!"
+    modified: "&8(&d&lIB&8) &7Modified your bankperms."
+    invalid-bankperm: "&8(&d&lIB&8) &7Please enter a valid bankperm."
+    usage: "&8(&d&lIB&8) &c/IslandBank modify &8<&fBankPerm&8>"
+  admin:
+    help:
+    - "&d&l* &dIslandBank &7- &cAdmin Help"
+    - ""
+    - "&7&o<> = Optional &c&oand &7&o() = Required"
+    - ""
+    - "&c/IslandBankAdmin info &8(&fPLAYER&8)"
+    - "&c/IslandBankAdmin reset &8(&fPLAYER&8)"
+    - "&c/IslandBankAdmin version"
+    - ""
+    info:
+      island-data-incorrect: "&8(&d&lIB&8) &7Failed to get info of that island! &cIsland Data Invalid."
+      info-format:
+      - "&d&l* &dIsland information &7- &8(&d%owner%&8)"
+      - ""
+      - "&cBalance&7: &f%amount%"
+      - "&cIsland ID&7: &f%id%"
+      - ""
+      usage: "&c/IslandBankAdmin info &8(&fPLAYER&8)"
+    reset:
+      island-data-incorrect: "&8(&d&lIB&8) &7Failed to reset that island! &cIsland Data Invalid."
+      reset-data: "&8(&d&lIB&8) &7Reset that islands' data. &8(&fOwner=%owner%&8)"
+      usage: "&8(&d&lIB&8) &c/IslandBankAdmin reset &8(&fPLAYER&8)"
+    version:
+      usage: "&8(&d&lIB&8) &c/IslandBankAdmin version"
+      version: "&8(&d&lIB&8) &7Version: 1.0"

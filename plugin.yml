@@ -1,0 +1,27 @@
+name: IslandBank
+author: Retrix
+main: pw.retrixsolutions.islandbank.IslandBank
+version: 1.0
+softdepend: [ASkyBlock, Vault, MVdWPlaceholderAPI, PlaceholderAPI]
+commands:
+  IB:
+   aliases:
+   - islandbank
+   - islandbankadmin
+   - iba
+permissions:
+  islandbank.view:
+    description: View island bank information.
+    default: true
+  islandbank.deposit:
+    description: Deposit money into an island bank.
+    default: true
+  islandbank.withdraw:
+    description: Withdraw money from an island bank.
+    default: true
+  islandbank.modify:
+    description: Modify bankperms for an island bank.
+    default: true
+  islandbank.admin:
+    description: Administration commands.
+    default: OP
